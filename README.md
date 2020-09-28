@@ -5,7 +5,7 @@
  [CS231n](http://cs231n.stanford.edu/) 스터디를 통해 공부한 내용을 기록하는 저장소입니다.
 
 ## 1. Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits
-이해할 개념:
+keywords: L1/L2 distances, hyperparameter search, cross-validation
 
 Data-driven approach : classification 문제를 풀 때, 각 클래스의 특징을 일일이 다 모델링 하기는 어려우니, 어린아이가 사물을 이해하듯이, 해당 클래스에 해당하는 다양한 sample들을 모델에 많이 학습 시키는 접근법이다. 이 때 labeled된 training dataset이 중요하다
 
@@ -25,9 +25,12 @@ testset은 딱 1번만 써야함
 
 
 ## 2. Linear classification: Support Vector Machine, Softmax
+keywords: parameteric approach, bias trick, hinge loss, cross-entropy loss, L2 regularization
 
 svm hinge loss : 데이터 스코어에 둔감
 sanity check: 스코어가 c-1 (c: 카테고리 수)
 
 
 ## 3. Optimization: Stochastic Gradient Descent
+keywords: optimization landscapes, local search, learning rate, analytic/numerical gradient
+
