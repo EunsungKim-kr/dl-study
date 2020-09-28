@@ -1,4 +1,4 @@
-# dl-study (편집중 9/27)
+# dl-study (편집중 9/28)
 
 
 
@@ -7,7 +7,7 @@
 ## 1. Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits
 keywords: L1/L2 distances, hyperparameter search, cross-validation
 
-Data-driven approach : classification 문제를 풀 때, 각 클래스의 특징을 일일이 다 모델링 하기는 어려우니, 어린아이가 사물을 이해하듯이, 해당 클래스에 해당하는 다양한 sample들을 모델에 많이 학습 시키는 접근법이다. 이 때 labeled된 training dataset이 중요하다
+[Data-driven approach] : classification 문제를 풀 때, 각 클래스의 특징을 일일이 다 모델링 하기는 어려우니, 어린아이가 사물을 이해하듯이, 해당 클래스에 해당하는 다양한 sample들을 모델에 많이 학습 시키는 접근법이다. 이 때 labeled된 training dataset이 중요하다
 
 Nearest Neighbor Classifier : CNN과 함께 쓰이진 않지만 중요하다. 이 때 pixel difference의 합(L1 norm)을 사용한다. (distance 중에 L1, L2 norm을 자주 쓴다)
 
